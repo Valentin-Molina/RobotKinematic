@@ -11,6 +11,7 @@ set(sources
     src/window.cpp
     src/link.cpp
     src/robot.cpp
+    src/robot2.cpp
     src/renderer.cpp
     src/planner.cpp
     src/window_transform.cpp

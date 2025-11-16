@@ -7,7 +7,7 @@
 
 Robot::Robot(Eigen::Vector2d base) : base_(base)
 {
-    links_ = {Link(0.7), Link(0.5), Link(0.3)};
+    links_ = {Link(0.7), Link(0.5), Link(0.3), Link(0.3)};
 };
 
 Robot::Robot(const Robot& robot) : base_(robot.base_)
